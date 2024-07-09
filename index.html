@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>
+        Survey Form
+    </title>
+</head>
+<body>
+<table id="header">
+    <tr>
+        <td>
+        <h1>  <span> <img src="survey-icon.jpg" width="25px"></span> YOUR DETAILS</h1>
+        </td>
+    </tr>
+</table>
+<form id="form">
+    <div id="form-content">
+        <label for="name" id="label-name">
+            NAME:
+        </label>
+        <br>
+            <input type="text" id="name" placeholder="Enter your name">
+     </div>
+     <div id="form-content">
+        <label for="email" id="label-email">
+            E-MAIL :
+            </label>
+            <br>
+            <input type="email" id="name" placeholder="Enter your email">
+     </div>
+     <div id="form-content">
+        <label for="age" id="label-age">
+            PHONE NUMBER :
+            </label>
+            <br>
+            <input type="number" id="name" placeholder="Enter your age">
+     </div>
+     <div id="form-content">
+        <label for="address" id="label-add">
+            CITY :
+        </label>
+        <br>
+        <input type="text" id="name" placeholder="Enter your city name">
+    </div>
+    <div id="form-content">
+        <label for="role" id="label-role">
+            WHICH PLACE YOU KNOW ME FROM 
+        </label>
+        <select name="role" id="role">
+            <option value="Instagram">Instagram</option>
+            <option value="Whatsapp">Whatsapp</option>
+                <option value="IRL">In Real Life</option>
+                <option value="tsm">Through Someone</option>
+                <option value="other">Others</option>
+        </select>
+        <br>
+        <label for="role" id="role">
+            (If through anyone please mention him/her 
+            <input type="text" id="role" placeholder="His/Her Name" > )
+        </label>
+    </div>
+    <div id="form-content">
+        <label> CHOOSE YOUR INTERESTS :</label>
+        <table id="Interest">
+            <tr>
+                <td>
+                    <input type="checkbox">Writing</input>
+                </td><td>
+                    <input type="checkbox">Editing</input>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox">Music</input>
+                </td><td>
+                    <input type="checkbox">Dancing</input>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox">Art/Craft</input>
+                </td><td>
+                    <input type="checkbox">Photography</input>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox">Travelling</input>
+                </td><td>
+                    <input type="checkbox">Movies</input>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox">Anime</input>
+                </td><td>
+                    <input type="checkbox">Gaming</input>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="form-content">
+       <label for="desp" id="desp"> Describe About Yourself :
+        </label>
+        <br>
+        <br>
+        <input type="text" id="desp" style="width: 90%;height: 120px;">
+    </div>
+    <button id="form-content" style="text-align: center;">
+        Submit
+    </button>
+</body>
+</html>
